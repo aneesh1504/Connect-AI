@@ -1,13 +1,16 @@
-Project: Connect AI
+# Connect AI
 
-Play Connect 4 against a friend or against a computer with varying difficulties! Play with a 3D board and choose your favourite theme! Features include hints and game replay
+Play Connect 4 against a friend or against a computer with varying difficulties! Play with a 3D board and choose your favorite theme! Features include hints and game replay.
 
+---
 
-Instructions:
+## 📝 Instructions
 
-Install NumPy and PIL to run the game. Can be done with conda, pip or using a package manager
-CMU Graphics needs to be installed using pip or by storing the CMU Graphics folder in the same directory as main.py
+To run the game, you'll need to install the following dependencies:
 
-Run main.py to start the game
+### Install Dependencies
 
-Ensure images are in the Image Folder, which should be stored in the same directory as main.py
+You can install the required libraries using `pip` or `conda`:
+
+```bash
+pip install numpy pillow cmu-graphics
